@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Form from "./Form";
+
 import App from "./App";
 import Mobile from "./Mobile";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Mobile />
+    <Form />
   </React.StrictMode>
 );
 
