@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import A from "./A";
 import UseEffect from "./UseEffect";
 import Form from "./Form";
 
@@ -11,7 +11,7 @@ import MultipleReturn from "./MultipleReturn";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MultipleReturn />
+    <A />
   </React.StrictMode>
 );
 
