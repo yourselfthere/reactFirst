@@ -1,18 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import UseReducer from "./UseReducer";
-import App from "./UseReducer";
-import A from "./A";
-import UseEffect from "./UseEffect";
-import Form from "./Form";
+import RouterExample from "./RouterExample";
+import FormVal from "./FormVal";
 
-import Mobile from "./Mobile";
-import MultipleReturn from "./MultipleReturn";
+// import RouterExample from "./RouterExample";
+
+// import UseReducer from "./UseReducer";
+// import App from "./UseReducer";
+// import A from "./A";
+// import UseEffect from "./UseEffect";
+// import Form from "./Form";
+
+// import Mobile from "./Mobile";
+// import MultipleReturn from "./MultipleReturn";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <UseReducer />
+    <FormVal />
   </React.StrictMode>
 );
 
